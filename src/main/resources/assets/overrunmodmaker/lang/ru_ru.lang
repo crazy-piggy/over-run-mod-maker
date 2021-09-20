@@ -1,14 +1,14 @@
-title.name=сверхскоростной модульный агрегат
+title.name=Создатель суперскоростных модов
 
-button.new_project=новый пункт
-button.open_import_project=Открыть проект импорта
-button.sponsor=спонсорство
-button.update_log=Обновить журнал
-button.multi_lingual=язык
+button.new_project=Создать новый проект
+button.open_import_project=Откройте и импортируйте проект
+button.sponsor=Спонсор
+button.update_log=Обновить информацию
+button.multi_lingual=Языки
 button.setup=Настройки
 
-dialog.message_prompt=подсказка
-dialog.message=сведения
+dialog.message_prompt=Напоминание
+dialog.message=Информация
 
 # over speed 模组 制作器
 # 超速模组制作器

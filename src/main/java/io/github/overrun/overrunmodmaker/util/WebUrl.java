@@ -1,4 +1,4 @@
-package io.github.mangostudio.mango.util;
+package io.github.overrun.overrunmodmaker.util;
 
 import java.awt.*;
 import java.io.IOException;

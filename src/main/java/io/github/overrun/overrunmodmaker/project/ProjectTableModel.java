@@ -1,4 +1,4 @@
-package io.github.mangostudio.mango.project;
+package io.github.overrun.overrunmodmaker.project;
 
 
 import javax.swing.*;

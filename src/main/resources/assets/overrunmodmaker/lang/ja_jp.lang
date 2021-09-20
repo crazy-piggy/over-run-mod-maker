@@ -1,4 +1,4 @@
-title.name=マンゴーモジュール製作機
+title.name=スピードを出す モジュール 製作器
 
 button.new_project=新規プロジェクト
 button.open_import_project=インポート項目を開く
@@ -11,5 +11,4 @@ prompt_message=メッセージ
 information=メッセージ
 
 
-
-# 芒果模组制作器
+# 超速模组制作器

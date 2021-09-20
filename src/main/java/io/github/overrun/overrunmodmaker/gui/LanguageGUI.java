@@ -1,7 +1,7 @@
-package io.github.mangostudio.mango.gui;
+package io.github.overrun.overrunmodmaker.gui;
 
-import io.github.mangostudio.mango.MangoModMakerClient;
-import io.github.mangostudio.mango.util.Language;
+import io.github.overrun.overrunmodmaker.OverrunModMakerClient;
+import io.github.overrun.overrunmodmaker.util.Language;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -41,7 +41,7 @@ public class LanguageGUI {
             {
                 scrollPane.setViewportView(list);
                 list.setListData(new String[]{"简体中文 (中国)", "日本語", "文言（華夏）", "English (US)", "English (UK)"});
-                list.setSelectedIndex(MangoModMakerClient.LanguageInt);
+                list.setSelectedIndex(OverrunModMakerClient.LanguageInt);
             }
         }
 
@@ -64,31 +64,31 @@ public class LanguageGUI {
         okButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                MangoModMakerClient.LanguageInt = list.getSelectedIndex();
-                list.setSelectedIndex(MangoModMakerClient.LanguageInt);
+                OverrunModMakerClient.LanguageInt = list.getSelectedIndex();
+                list.setSelectedIndex(OverrunModMakerClient.LanguageInt);
 
 
                 if (list.getSelectedValue() == "简体中文 (中国)") {
                     Language.init();
                     Language.currentLang = "zh_cn";
-                    MangoModMakerClient.UpdateLanguageInit();
+                    OverrunModMakerClient.UpdateLanguageInit();
                 } else if (list.getSelectedValue() == "English (US)") {
                     Language.init();
                     Language.currentLang = "en_us";
-                    MangoModMakerClient.UpdateLanguageInit();
+                    OverrunModMakerClient.UpdateLanguageInit();
                 } else if (list.getSelectedValue() == "English (UK)") {
                     Language.init();
                     Language.currentLang = "en_uk";
-                    MangoModMakerClient.UpdateLanguageInit();
+                    OverrunModMakerClient.UpdateLanguageInit();
                 } else if (list.getSelectedValue() == "日本語") {
                     Language.init();
                     Language.currentLang = "ja_jp";
-                    MangoModMakerClient.UpdateLanguageInit();
+                    OverrunModMakerClient.UpdateLanguageInit();
                 } else if (list.getSelectedValue() == "文言（華夏）") {
                     Language.init();
                     // 文言（華夏）
                     Language.currentLang = "lzh";
-                    MangoModMakerClient.UpdateLanguageInit();
+                    OverrunModMakerClient.UpdateLanguageInit();
                 }
 
 

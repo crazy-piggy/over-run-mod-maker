@@ -1,4 +1,4 @@
-package io.github.mangostudio.mango.util;
+package io.github.overrun.overrunmodmaker.util;
 
 
 import java.io.InputStream;
@@ -30,7 +30,7 @@ public final class Language {
         for (Map.Entry<String, Map<String, String>> entry : LANGS.entrySet()) {
             try (InputStream is = Objects.requireNonNull(
                     ClassLoader.getSystemResourceAsStream(
-                            "assets/" + "mangomodmaker" + "/lang/" + entry.getKey() + ".lang"
+                            "assets/" + "overrunmodmaker" + "/lang/" + entry.getKey() + ".lang"
                     ));
                  Reader r = new InputStreamReader(is, StandardCharsets.UTF_8)
             ) {

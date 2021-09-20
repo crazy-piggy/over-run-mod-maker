@@ -1,11 +1,11 @@
-package io.github.mangostudio.mango;
+package io.github.overrun.overrunmodmaker;
 
-import io.github.mangostudio.mango.gui.LanguageGUI;
-import io.github.mangostudio.mango.project.Project;
-import io.github.mangostudio.mango.project.ProjectTableModel;
-import io.github.mangostudio.mango.project.TableImageCell;
-import io.github.mangostudio.mango.util.Language;
-import io.github.mangostudio.mango.util.WebUrl;
+import io.github.overrun.overrunmodmaker.gui.LanguageGUI;
+import io.github.overrun.overrunmodmaker.project.Project;
+import io.github.overrun.overrunmodmaker.project.ProjectTableModel;
+import io.github.overrun.overrunmodmaker.project.TableImageCell;
+import io.github.overrun.overrunmodmaker.util.Language;
+import io.github.overrun.overrunmodmaker.util.WebUrl;
 
 import javax.swing.*;
 import javax.swing.table.TableColumn;
@@ -19,7 +19,7 @@ import java.util.List;
 
 import static com.sun.java.accessibility.util.AWTEventMonitor.addWindowListener;
 
-public class MangoModMakerClient {
+public class OverrunModMakerClient {
 
     private static JFrame FRAME;   //窗口框架
 
@@ -94,7 +94,7 @@ public class MangoModMakerClient {
 
 
     public static void UpdateLanguageInit() {
-        setName(Language.getTranslationName("title.name") + " v" + MangoModMaker.VERSION);
+        setName(Language.getTranslationName("title.name") + " v" + OverrunModMaker.VERSION);
 
         NewProjectButton.setText(Language.getTranslationName("button.new_project"));
         OpenImportProjectButton.setText(Language.getTranslationName("button.open_import_project"));
@@ -198,7 +198,7 @@ public class MangoModMakerClient {
         SponsorButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                WebUrl.OpenWebUrl(MangoModMaker.DONATE_URL);
+                WebUrl.OpenWebUrl(OverrunModMaker.DONATE_URL);
             }
         });
 
@@ -206,7 +206,7 @@ public class MangoModMakerClient {
         LogButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                WebUrl.OpenWebUrl(MangoModMaker.UPDATE_LOG_URL);
+                WebUrl.OpenWebUrl(OverrunModMaker.UPDATE_LOG_URL);
             }
         });
 
@@ -224,7 +224,7 @@ public class MangoModMakerClient {
     }
 
 
-    public MangoModMakerClient() {
+    public OverrunModMakerClient() {
         //frame.setIconImages(getIcons());
         FRAME = new JFrame();
         FRAME.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

@@ -1,7 +1,4 @@
-package io.github.mangostudio.mango.project;
-
-import java.awt.*;
-import java.awt.image.BufferedImage;
+package io.github.overrun.overrunmodmaker.project;
 
 public class Project {
 

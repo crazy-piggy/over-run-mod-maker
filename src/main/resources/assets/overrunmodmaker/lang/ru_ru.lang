@@ -1,1 +1,14 @@
+title.name=сверхскоростной модульный агрегат
 
+button.new_project=новый пункт
+button.open_import_project=Открыть проект импорта
+button.sponsor=спонсорство
+button.update_log=Обновить журнал
+button.multi_lingual=язык
+button.setup=Настройки
+
+prompt_message=подсказка
+information=сведения
+
+# over speed 模组 制作器
+# 超速模组制作器

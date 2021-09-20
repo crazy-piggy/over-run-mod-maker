@@ -1,1 +1,14 @@
-hello
+title.name=과속 모듈 제작 기
+
+button.new_project=새 항목
+button.open_import_project=가 져 오기 항목 열기
+button.sponsor=찬조
+button.update_log=업데이트 로그
+button.multi_lingual=언어
+button.setup=설치 하 다
+
+prompt_message=알림 정보
+information=정보
+
+# over speed 模组 制作器
+# 超速模组制作器

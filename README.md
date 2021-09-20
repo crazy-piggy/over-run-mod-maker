@@ -1,6 +1,6 @@
 # over-run-mod-maker
 
-第二次开发
+二次开发
 
 over-run！一款over-run模组制作器，采用java语言开发。支持跨平台、JavaFx界面漂亮、速度快、插件
 

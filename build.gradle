@@ -12,8 +12,8 @@ targetCompatibility = 1.8
 
 
 version = "0.1.0-Alpha"
-group = "io.github.mangostudio.mango"
-archivesBaseName = "MangoModMaker"
+group = "io.github.overrun.overrunmodmaker"
+archivesBaseName = "OverrunModMaker"
 
 
 compileJava.options.encoding = 'UTF-8'
@@ -83,7 +83,7 @@ shadowJar {
     }
     manifest {
         attributes(
-                'Main-Class': 'io.github.mangostudio.mango.Start'
+                'Main-Class': 'io.github.overrun.overrunmodmaker.Start'
         )
     }
 }

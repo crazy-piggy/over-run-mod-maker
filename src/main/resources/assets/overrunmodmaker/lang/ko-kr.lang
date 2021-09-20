@@ -7,8 +7,8 @@ button.update_log=업데이트 로그
 button.multi_lingual=언어
 button.setup=설치 하 다
 
-prompt_message=알림 정보
-information=정보
+dialog.message_prompt=알림 정보
+dialog.message=정보
 
 # over speed 模组 制作器
 # 超速模组制作器

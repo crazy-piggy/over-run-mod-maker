@@ -215,7 +215,7 @@ public class OverrunModMakerClient {
             @Override
             public void actionPerformed(ActionEvent e) {
                 LanguageGUI lo = new LanguageGUI();
-                JOptionPane.showMessageDialog(FRAME, "你好，世界", "信息...", JOptionPane.INFORMATION_MESSAGE);
+                JOptionPane.showMessageDialog(FRAME, "你好，世界", Language.getTranslationName("dialog.message_prompt"), JOptionPane.INFORMATION_MESSAGE);
             }
         });
 

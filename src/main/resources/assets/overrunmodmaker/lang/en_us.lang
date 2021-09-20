@@ -7,7 +7,7 @@ button.update_log=Update Log
 button.multi_lingual=Language
 button.setup=SetUp
 
-prompt_message=Prompt Information
-information=Information
+dialog.message_prompt=Prompt
+dialog.message=Message
 
 # 超速模组制作器

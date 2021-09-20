@@ -7,8 +7,8 @@ button.update_log=Обновить журнал
 button.multi_lingual=язык
 button.setup=Настройки
 
-prompt_message=подсказка
-information=сведения
+dialog.message_prompt=подсказка
+dialog.message=сведения
 
 # over speed 模组 制作器
 # 超速模组制作器

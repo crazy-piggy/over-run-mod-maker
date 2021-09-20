@@ -7,8 +7,6 @@ button.update_log=ログを更新
 button.multi_lingual=言語
 button.setup=設定
 
-prompt_message=メッセージ
-information=メッセージ
-
-
+dialog.message_prompt=メッセージ
+dialog.message=メッセージ
 # 超速模组制作器
